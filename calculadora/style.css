@@ -1,0 +1,33 @@
+#operacao {
+    width: 200px;
+    height: 30px;
+}
+
+#inp1 {
+    width:200px
+}
+
+#inp2 {
+    width:200px
+}
+
+#botao {
+    width: 200px;
+    height: 30px;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+form {
+    text-align: center;
+    background-color:rgba(255, 0, 0, 0.541) ;
+    width: 300px;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp3855582.png);
+}

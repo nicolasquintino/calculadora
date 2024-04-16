@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="cal.js"></script>
+
+<container>
+    <form>
+        <div>
+            <select name="Escolha uma operação" id="operacao">
+                <option value="Operação Escolha">Escolha uma Operação</option>
+                <option value="Adição">Somar</option>
+                <option value="Subtração">Subtrair</option>
+                <option value="Multiplicação">Multiplicar</option>
+                <option value="Divisão">Dividir</option>
+            </select>
+        </div>
+    
+        <div>
+            <h2>Primeiro Número</h2>
+            <input type="number" id="inp1"></input>
+        </div>
+    
+        <div>
+            <h2>Segundo Número</h2>
+            <input type="number" id="inp2"></input>
+        </div>
+        <br>
+    
+        <div>
+            <button id="botao" type="button" onclick="calcularButton()">CALCULAR</button>
+        </div>
+    
+        <div>
+           <h2 >O resultado é:</h2><h2 id="resultado"></h2>
+        </div>
+       
+    </form>
+</container>
+</body>
+</body>
+</html>
