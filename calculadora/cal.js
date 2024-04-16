@@ -1,7 +1,7 @@
 function calcularButton() {
     let opcao = document.querySelector('#operacao').value;
-    let num1 = document.getElementById('inp1').value;
-    let num2 = document.getElementById('inp2').value;
+    let num1 = parseFloat(document.getElementById('inp1').value);
+    let num2 = parseFloat(document.getElementById('inp2').value);
     resposta = 0
 
     switch (opcao) {
